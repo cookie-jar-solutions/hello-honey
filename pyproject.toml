@@ -8,5 +8,8 @@ dependencies = [
     "honey",
 ]
 
+[tool.setuptools]
+py-modules = ["hello", "main"]
+
 [tool.uv.sources]
 honey = { path = "../honey", editable = true }

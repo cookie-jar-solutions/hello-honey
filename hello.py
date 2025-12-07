@@ -1,4 +1,4 @@
-from hive import mock_jar
+from honey import mock_jar
 import greetings
 
 hello = greetings.greet(name="Alice")
