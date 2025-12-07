@@ -1,5 +1,5 @@
 from honey import mock_jar
-import greetings
+import greetings # type: ignore
 
 hello = greetings.greet(name="Alice")
 farewell = greetings.farewell(name="Alice")
