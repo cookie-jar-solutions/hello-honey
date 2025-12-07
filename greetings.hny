@@ -3,3 +3,6 @@ Say hello to {{ name }}
 ----
 farewell
 Say goodbye to {{ name }}
+----
+blank
+{{text}}
